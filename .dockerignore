@@ -1,0 +1,25 @@
+# Virtual environment - never goes into the container
+venv/
+
+# Git files - not needed in the container
+.git/
+.gitignore
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables - keep secrets out of the image
+.env
+
+# VS Code settings
+.vscode/
+
+# Local test files
+*.txt.test
+response.json
+
+# README - not needed at runtime
+README.md
